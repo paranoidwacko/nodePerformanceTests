@@ -32,7 +32,7 @@ timer.clearTimer();
 timer.tic();
 data1.map(item => item.address = "Changed address - 1");
 console.log("* Test Item 1:", data1[5000])
-console.log("FIND time:", timer.toc(), "ms");
+console.log("MAP time:", timer.toc(), "ms");
 
 const data2 = addFakeData();
 timer.clearTimer();

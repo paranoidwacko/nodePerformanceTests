@@ -32,7 +32,7 @@ timer.clearTimer();
 timer.tic();
 const result = data.filter(item => item.firstName == "Element" && item.lastName == "ToFind");
 console.log("FOUND!", result);
-console.log("FIND time:", timer.toc(), "ms");
+console.log("FILTER time:", timer.toc(), "ms");
 
 timer.clearTimer();
 timer.tic();
